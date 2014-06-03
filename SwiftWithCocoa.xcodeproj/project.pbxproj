@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFCD5CFA193E968000796CC5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD5CF9193E968000796CC5 /* main.swift */; };
+		DFCD5CFC193E968000796CC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD5CFB193E968000796CC5 /* AppDelegate.swift */; };
+		DFCD5CFE193E968000796CC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCD5CFD193E968000796CC5 /* Images.xcassets */; };
+		DFCD5D01193E968000796CC5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCD5CFF193E968000796CC5 /* MainMenu.xib */; };
+		DFCD5D0D193E968000796CC5 /* SwiftWithCocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD5D0C193E968000796CC5 /* SwiftWithCocoaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFCD5D07193E968000796CC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFCD5CEC193E968000796CC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFCD5CF3193E968000796CC5;
+			remoteInfo = SwiftWithCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFCD5CF4193E968000796CC5 /* SwiftWithCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWithCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCD5CF8193E968000796CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFCD5CF9193E968000796CC5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DFCD5CFB193E968000796CC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFCD5CFD193E968000796CC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFCD5D00193E968000796CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DFCD5D06193E968000796CC5 /* SwiftWithCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWithCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCD5D0B193E968000796CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFCD5D0C193E968000796CC5 /* SwiftWithCocoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWithCocoaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFCD5CF1193E968000796CC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCD5D03193E968000796CC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFCD5CEB193E968000796CC5 = {
+			isa = PBXGroup;
+			children = (
+				DFCD5CF6193E968000796CC5 /* SwiftWithCocoa */,
+				DFCD5D09193E968000796CC5 /* SwiftWithCocoaTests */,
+				DFCD5CF5193E968000796CC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFCD5CF5193E968000796CC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD5CF4193E968000796CC5 /* SwiftWithCocoa.app */,
+				DFCD5D06193E968000796CC5 /* SwiftWithCocoaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFCD5CF6193E968000796CC5 /* SwiftWithCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD5CFB193E968000796CC5 /* AppDelegate.swift */,
+				DFCD5CFD193E968000796CC5 /* Images.xcassets */,
+				DFCD5CFF193E968000796CC5 /* MainMenu.xib */,
+				DFCD5CF7193E968000796CC5 /* Supporting Files */,
+			);
+			path = SwiftWithCocoa;
+			sourceTree = "<group>";
+		};
+		DFCD5CF7193E968000796CC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD5CF8193E968000796CC5 /* Info.plist */,
+				DFCD5CF9193E968000796CC5 /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFCD5D09193E968000796CC5 /* SwiftWithCocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD5D0C193E968000796CC5 /* SwiftWithCocoaTests.swift */,
+				DFCD5D0A193E968000796CC5 /* Supporting Files */,
+			);
+			path = SwiftWithCocoaTests;
+			sourceTree = "<group>";
+		};
+		DFCD5D0A193E968000796CC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD5D0B193E968000796CC5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFCD5CF3193E968000796CC5 /* SwiftWithCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFCD5D10193E968000796CC5 /* Build configuration list for PBXNativeTarget "SwiftWithCocoa" */;
+			buildPhases = (
+				DFCD5CF0193E968000796CC5 /* Sources */,
+				DFCD5CF1193E968000796CC5 /* Frameworks */,
+				DFCD5CF2193E968000796CC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftWithCocoa;
+			productName = SwiftWithCocoa;
+			productReference = DFCD5CF4193E968000796CC5 /* SwiftWithCocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFCD5D05193E968000796CC5 /* SwiftWithCocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFCD5D13193E968000796CC5 /* Build configuration list for PBXNativeTarget "SwiftWithCocoaTests" */;
+			buildPhases = (
+				DFCD5D02193E968000796CC5 /* Sources */,
+				DFCD5D03193E968000796CC5 /* Frameworks */,
+				DFCD5D04193E968000796CC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFCD5D08193E968000796CC5 /* PBXTargetDependency */,
+			);
+			name = SwiftWithCocoaTests;
+			productName = SwiftWithCocoaTests;
+			productReference = DFCD5D06193E968000796CC5 /* SwiftWithCocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFCD5CEC193E968000796CC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Void Main";
+				TargetAttributes = {
+					DFCD5CF3193E968000796CC5 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					DFCD5D05193E968000796CC5 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = DFCD5CF3193E968000796CC5;
+					};
+				};
+			};
+			buildConfigurationList = DFCD5CEF193E968000796CC5 /* Build configuration list for PBXProject "SwiftWithCocoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFCD5CEB193E968000796CC5;
+			productRefGroup = DFCD5CF5193E968000796CC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFCD5CF3193E968000796CC5 /* SwiftWithCocoa */,
+				DFCD5D05193E968000796CC5 /* SwiftWithCocoaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFCD5CF2193E968000796CC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCD5CFE193E968000796CC5 /* Images.xcassets in Resources */,
+				DFCD5D01193E968000796CC5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCD5D04193E968000796CC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFCD5CF0193E968000796CC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCD5CFC193E968000796CC5 /* AppDelegate.swift in Sources */,
+				DFCD5CFA193E968000796CC5 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCD5D02193E968000796CC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCD5D0D193E968000796CC5 /* SwiftWithCocoaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFCD5D08193E968000796CC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFCD5CF3193E968000796CC5 /* SwiftWithCocoa */;
+			targetProxy = DFCD5D07193E968000796CC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFCD5CFF193E968000796CC5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFCD5D00193E968000796CC5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFCD5D0E193E968000796CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFCD5D0F193E968000796CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DFCD5D11193E968000796CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftWithCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFCD5D12193E968000796CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftWithCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFCD5D14193E968000796CC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftWithCocoa.app/Contents/MacOS/SwiftWithCocoa";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftWithCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		DFCD5D15193E968000796CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftWithCocoa.app/Contents/MacOS/SwiftWithCocoa";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftWithCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFCD5CEF193E968000796CC5 /* Build configuration list for PBXProject "SwiftWithCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCD5D0E193E968000796CC5 /* Debug */,
+				DFCD5D0F193E968000796CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFCD5D10193E968000796CC5 /* Build configuration list for PBXNativeTarget "SwiftWithCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCD5D11193E968000796CC5 /* Debug */,
+				DFCD5D12193E968000796CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFCD5D13193E968000796CC5 /* Build configuration list for PBXNativeTarget "SwiftWithCocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFCD5D14193E968000796CC5 /* Debug */,
+				DFCD5D15193E968000796CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFCD5CEC193E968000796CC5 /* Project object */;
+}
