@@ -15,12 +15,22 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(aNotification: NSNotification?) {
         // Insert code here to initialize your application
+        let operationQ = NSOperationQueue()
+
+        let operation = NSBlockOperation(block: {
+            println("Got operation!")
+            })
+        operationQ.addOperation(operation)
+
+        let operation2 = NSBlockOperation() {
+            println("Got operation2!")
+        }
+        operationQ.addOperation(operation2)
     }
 
     func applicationWillTerminate(aNotification: NSNotification?) {
         // Insert code here to tear down your application
     }
-
 
 }
 

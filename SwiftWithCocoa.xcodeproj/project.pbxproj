@@ -34,6 +34,7 @@
 		DFCD5D06193E968000796CC5 /* SwiftWithCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWithCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCD5D0B193E968000796CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFCD5D0C193E968000796CC5 /* SwiftWithCocoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWithCocoaTests.swift; sourceTree = "<group>"; };
+		DFF714EB193EA2270091B650 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 				DFCD5CFD193E968000796CC5 /* Images.xcassets */,
 				DFCD5CFF193E968000796CC5 /* MainMenu.xib */,
 				DFCD5CF7193E968000796CC5 /* Supporting Files */,
+				DFF714EB193EA2270091B650 /* MyPlayground.playground */,
 			);
 			path = SwiftWithCocoa;
 			sourceTree = "<group>";
@@ -399,6 +401,7 @@
 				DFCD5D12193E968000796CC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFCD5D13193E968000796CC5 /* Build configuration list for PBXNativeTarget "SwiftWithCocoaTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +410,7 @@
 				DFCD5D15193E968000796CC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
